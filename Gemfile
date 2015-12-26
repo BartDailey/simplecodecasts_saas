@@ -13,7 +13,7 @@ gem 'bootstrap-sass', '3.3.1'
 #Use font-awesome library
 gem 'font-awesome-sass', '4.4.0'
 
-#use postgresql as the database for production
+#use postgresql as the database for PRODUCTION
 group :production do 
     gem 'pg'
     gem 'rails_12factor'
